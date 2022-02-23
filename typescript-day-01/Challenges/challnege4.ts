@@ -3,6 +3,7 @@
 
 function subtractNums(num1: number, num2: number): string {
   let numberSub = num1 - num2;
+  return numberSub.toString()
 }
 
-console.log(subtractNums("10", "5"));
+console.log(subtractNums(10, 5));
